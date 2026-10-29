@@ -4,9 +4,9 @@ Work through this once, before the first live week. The whole intake takes about
 
 ## Step 1: Collect the leagues
 
-Start the owner config from `templates/owner-config.yaml` with the owner's timezone and one `leagues` entry per league. Then ask for each league separately, and record the answers in a settings file built from `templates/league-settings.md`:
+Copy `templates/owner-config.yaml` to `private/owner-config.yaml` and fill in the owner's timezone and one `leagues` entry per league. Then ask for each league separately, and record the answers in `private/leagues/<league>.md`, built from `templates/league-settings.md`:
 
-- Platform (Yahoo, ESPN, Sleeper, or other) and how the assistant will access it (the owner's signed-in browser session is the usual route).
+- Platform (Yahoo, ESPN, Sleeper, or other) and how the assistant will access it (the owner's signed-in browser session is the usual route). Never ask for or record the owner's password.
 - League name or ID and the owner's team, exactly as they appear on the platform.
 - Number of teams, head-to-head or points format, and the scoring system (PPR, half PPR, standard, or custom).
 - Roster shape: starters by position, bench size, injured reserve slots, and any position maximums.
@@ -36,7 +36,7 @@ Start the owner config from `templates/owner-config.yaml` with the owner's timez
   - Defense strategy (hold a platoon, stream weekly, or hold one top unit through its bye).
   - Whether trade exploration is in scope at all. It is out of scope by default.
   - Sources they already trust for news and rankings.
-- Write owner-wide answers into the owner config (`templates/owner-config.yaml`) and league-specific ones into that league's settings file. Preferences the owner stated once should never need stating twice.
+- Write owner-wide answers into `private/owner-config.yaml` and league-specific ones into that league's settings file. Preferences the owner stated once should never need stating twice.
 
 ## Step 5: Set the schedule
 

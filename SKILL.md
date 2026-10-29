@@ -1,6 +1,12 @@
 # Fantasy Football Management
 
-Run the user's fantasy football teams on a weekly operating rhythm. The skill assumes one owner, one or more leagues on any platform (Yahoo, ESPN, Sleeper, or another), and an assistant with browser access to the league sites. Read the owner's config (built from `templates/owner-config.yaml`) at the start of every check for timezone, schedule, delivery, escalation, and preferences. Read `references/onboarding.md` first when no owner config or league settings files exist yet.
+Run the user's fantasy football teams on a weekly operating rhythm. The skill assumes one owner, one or more leagues on any platform (Yahoo, ESPN, Sleeper, or another), and an assistant with browser access to the league sites. Read the owner's config (`private/owner-config.yaml`, built from `templates/owner-config.yaml`) at the start of every check for timezone, schedule, delivery, escalation, and preferences. Read `references/onboarding.md` first when no owner config or league settings files exist yet.
+
+## Keep owner data private
+
+- Write every filled file (owner config, league settings, defense boards, brief logs) under `private/`, which git ignores. Never write owner data into `templates/` or anywhere else in the skill folder.
+
+- Never store passwords, tokens, session cookies, or payment details in any file. Access league sites through the owner's signed-in browser session, and ask the owner to sign in when a session has expired.
 
 ## Set the authority mode per league
 

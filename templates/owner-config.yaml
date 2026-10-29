@@ -1,4 +1,6 @@
-# Owner configuration — one file per owner, filled during onboarding.
+# Owner configuration — copy to private/owner-config.yaml and fill during onboarding.
+# private/ is git-ignored. Never put passwords, tokens, or cookies in this file;
+# league access goes through the owner's signed-in browser session.
 # Owner-wide parameters live here; league-specific values (including the authority mode)
 # live in each league's settings file built from templates/league-settings.md.
 
@@ -9,13 +11,13 @@ owner:
 leagues:                      # one entry per league, managed or ignored
   - name: ""
     platform: ""              # yahoo / espn / sleeper / other
-    settings_file: ""         # path to this league's filled settings file
+    settings_file: ""         # e.g. private/leagues/<league>.md
     ignore: false             # true = never manage this league
 
 delivery:
   brief_channel: chat         # chat / email / other
   approval_method: reply      # reply / tap / owner executes silently
-  log_dir: ""                 # where dated brief logs are written for the Tuesday recap
+  log_dir: private/logs       # dated brief logs for the Tuesday recap
 
 schedule:                     # clock times in owner.timezone; keep each check tied to its event
   daily_health_check: "08:40"

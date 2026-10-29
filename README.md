@@ -2,7 +2,7 @@
 
 This package teaches an AI assistant to run your fantasy football teams the way a good co-manager would: daily health checks, evidence-based lineup and waiver decisions with a confidence number on every call, a standing all-32 defense board, pre-lock checks tied to every kickoff, and a Tuesday recap that grades its own calls.
 
-It contains no one's personal data, team names, or league details. Your assistant fills the templates in with yours during onboarding, and those filled files stay with you.
+It contains no one's personal data, team names, or league details. Your assistant fills the templates in with yours during onboarding and saves them under `private/`, which git ignores, so your data is never committed. No passwords are stored anywhere: the assistant uses your signed-in browser session.
 
 ## What's inside
 
