@@ -1,5 +1,6 @@
 name: "fantasy_football_management"
 title: "Fantasy Football Management"
+version: "1.0"
 description: "Run one or more fantasy football teams week to week with evidence-based lineup, waiver, and defense decisions on a fixed weekly cadence, under a per-league authority mode the owner sets."
 category: "Sports and games"
 include_in_prompt: false
