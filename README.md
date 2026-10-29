@@ -11,7 +11,7 @@ It contains no one's personal data, team names, or league details. Your assistan
 - `references/decision-frameworks.md` — how lineup, waiver, and defense calls get made and graded.
 - `references/weekly-cadence.md` — the week's schedule of checks, from the Tuesday recap to the Monday night pre-lock check.
 - `references/onboarding.md` — the intake your assistant runs with you first: leagues, verified settings, authority modes, preferences, schedule.
-- `templates/` — blank working files your assistant fills in for you: one settings file per league, the defense board, and the daily check format.
+- `templates/` — blank working files your assistant fills in for you: your owner config (timezone, schedule, delivery, preferences), one settings file per league, the defense board, and the daily check format.
 
 ## How to use it
 

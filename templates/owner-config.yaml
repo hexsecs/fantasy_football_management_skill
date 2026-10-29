@@ -1,0 +1,38 @@
+# Owner configuration — one file per owner, filled during onboarding.
+# Owner-wide parameters live here; league-specific values (including the authority mode)
+# live in each league's settings file built from templates/league-settings.md.
+
+owner:
+  name: ""
+  timezone: ""                # IANA name, e.g. America/New_York; every deadline in a brief uses it
+
+leagues:                      # one entry per league, managed or ignored
+  - name: ""
+    platform: ""              # yahoo / espn / sleeper / other
+    settings_file: ""         # path to this league's filled settings file
+    ignore: false             # true = never manage this league
+
+delivery:
+  brief_channel: chat         # chat / email / other
+  approval_method: reply      # reply / tap / owner executes silently
+  log_dir: ""                 # where dated brief logs are written for the Tuesday recap
+
+schedule:                     # clock times in owner.timezone; keep each check tied to its event
+  daily_health_check: "08:40"
+  tuesday_recap: "07:40"
+  tuesday_waiver_preview: "18:40"
+  wednesday_waiver_pass: "07:40"
+  thursday_prelock: "19:00"
+  sunday_lineup_check: "10:40"
+  sunday_inactives_sweep: "11:40"
+
+escalation:                   # when an owner decision is needed and they do not answer before lock
+  recommendations_only: no_move
+  full_auto: prepared_move
+
+preferences:
+  questionable_starters: floor    # floor (take the healthy floor) / upside (start the upside)
+  rb_stable_depth: ""             # how many bench running backs to hold
+  defense_strategy: platoon       # platoon / stream / hold_one
+  trades_in_scope: false
+  trusted_sources: []

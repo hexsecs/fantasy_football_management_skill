@@ -1,6 +1,6 @@
 # Weekly cadence
 
-The standing schedule the system runs on. Times below are the proven defaults in the owner's timezone. Adapt the clock times at onboarding, but keep the relationship between each check and the kickoff or waiver event it serves.
+The standing schedule the system runs on. Times below are the proven defaults in the owner's timezone; the owner's actual times live in the `schedule` section of their owner config. Adapt the clock times at onboarding, but keep the relationship between each check and the kickoff or waiver event it serves.
 
 ## Every morning: health check (about 8:40 AM)
 

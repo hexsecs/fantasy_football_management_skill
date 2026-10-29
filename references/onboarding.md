@@ -4,7 +4,7 @@ Work through this once, before the first live week. The whole intake takes about
 
 ## Step 1: Collect the leagues
 
-Ask for each league separately, and record the answers in a settings file built from `templates/league-settings.md`:
+Start the owner config from `templates/owner-config.yaml` with the owner's timezone and one `leagues` entry per league. Then ask for each league separately, and record the answers in a settings file built from `templates/league-settings.md`:
 
 - Platform (Yahoo, ESPN, Sleeper, or other) and how the assistant will access it (the owner's signed-in browser session is the usual route).
 - League name or ID and the owner's team, exactly as they appear on the platform.
@@ -36,12 +36,13 @@ Ask for each league separately, and record the answers in a settings file built 
   - Defense strategy (hold a platoon, stream weekly, or hold one top unit through its bye).
   - Whether trade exploration is in scope at all. It is out of scope by default.
   - Sources they already trust for news and rankings.
-- Write every answer into the settings files or a short preferences note. Preferences the owner stated once should never need stating twice.
+- Write owner-wide answers into the owner config (`templates/owner-config.yaml`) and league-specific ones into that league's settings file. Preferences the owner stated once should never need stating twice.
 
 ## Step 5: Set the schedule
 
 - Offer the cadence from `references/weekly-cadence.md` with its default times, in the owner's timezone, and adjust the clock times to their mornings and evenings.
 - Confirm how briefs should arrive (chat, email, or another channel) and how recommendations-only approvals come back (a reply, a tap, or the owner executing silently).
+- Record the agreed times, delivery, and escalation in the owner config's `schedule`, `delivery`, and `escalation` sections.
 - Confirm the escalation rule for deadline windows: if a Thursday or Sunday contingency needs the owner's word and they do not answer before the lock, the default is no move on recommendations-only leagues, and the prepared best-judgment move on full-auto leagues.
 
 ## Step 6: Shadow week
@@ -51,5 +52,5 @@ Ask for each league separately, and record the answers in a settings file built 
 
 ## Step 7: Hand over the working files
 
-- Give the owner their filled-in settings files, the first defense board built from `templates/dst-board.md`, and one sample daily brief built from `templates/daily-check.md`, so they can see exactly what the system keeps and produces.
+- Give the owner their filled-in owner config and settings files, the first defense board built from `templates/dst-board.md`, and one sample daily brief built from `templates/daily-check.md`, so they can see exactly what the system keeps and produces.
 - Tell the owner the three things that will make the system better over the season: correcting a call in the moment (the correction gets folded into the frameworks), naming sources they trust, and answering the graded recap when a process call surprises them.

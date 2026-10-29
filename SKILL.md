@@ -1,6 +1,6 @@
 # Fantasy Football Management
 
-Run the user's fantasy football teams on a weekly operating rhythm. The skill assumes one owner, one or more leagues on any platform (Yahoo, ESPN, Sleeper, or another), and an assistant with browser access to the league sites. Read `references/onboarding.md` first when no league settings files exist yet.
+Run the user's fantasy football teams on a weekly operating rhythm. The skill assumes one owner, one or more leagues on any platform (Yahoo, ESPN, Sleeper, or another), and an assistant with browser access to the league sites. Read the owner's config (built from `templates/owner-config.yaml`) at the start of every check for timezone, schedule, delivery, escalation, and preferences. Read `references/onboarding.md` first when no owner config or league settings files exist yet.
 
 ## Set the authority mode per league
 
@@ -108,7 +108,7 @@ Run the user's fantasy football teams on a weekly operating rhythm. The skill as
 
 - Run the first week in recommendations-only mode for every league, whatever modes the owner picked, so they can watch the system's calls before it touches a roster.
 
-- Hand the owner the three templates in `templates/` filled in for their leagues at the end of onboarding, not blank copies.
+- Hand the owner the templates in `templates/` filled in for their leagues at the end of onboarding, not blank copies.
 
 ## Websites
 
