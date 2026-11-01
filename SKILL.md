@@ -46,6 +46,8 @@ Run the user's fantasy football teams on a weekly operating rhythm. The skill as
 
 - Never bench a proven producer on a small projection gap alone. A gap under roughly two points against a player with a track record is noise, and the producer's floor is the tiebreak.
 
+- Re-rank the whole linked slot group whenever any lineup change is triggered. A flex slot links every position it accepts (a W/R/T slot links the WR, RB, and TE slots), so a bench player promoted into the flex can make the player he displaces the right starter at his natural position, and the incumbent there the right benching. Compare the best combination across the linked group, never just the promoted player against the incumbent in the one slot that triggered the change.
+
 - Discount a starter who is playing through a multi-week injury when the projection has already been cut, and say the discount out loud in the brief.
 
 - Hold a deep stable of running backs across the bench. Running back injuries are inevitable, and the stable is what turns another team's injury news into your waiver priority instead of your emergency.

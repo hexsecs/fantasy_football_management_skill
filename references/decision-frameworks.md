@@ -13,6 +13,7 @@ Weigh three inputs together:
 House rules:
 
 - Never bench a proven producer on a small projection gap alone. Under roughly two points, start the track record.
+- A triggered swap re-opens every slot the involved players can fill. Work the combination, not the pair. The canonical failure: a bench running back's projection jumps on starter-injury news (9.4 to 16.4), so he is swapped straight into the flex over the incumbent flex receiver (13.0) — while a 7.9-point receiver starts untouched at WR2. The right combination was the back at flex and the displaced receiver at WR2, benching the 7.9-point receiver, worth roughly five projected points more than the executed swap. Whenever a bench player's projection jumps into the starting range, rank every starter and bench player who can fill the linked slots (WR + W/R/T, RB + W/R/T, TE + W/R/T) as one pool and start the best combination.
 - A questionable tag is not a benching. Read the practice week: full participation by Friday usually means a full role, a week of did-not-practice usually means a limited role or an inactive, and limited all week is the genuinely uncertain middle.
 - Monday and Tuesday practice reports on a short week are often estimated rather than observed. Say so when a status rests on estimates, and wait for the first real report before moving confidence much.
 - A player returning from a long absence has an unknown workload even when cleared. Confidence in his role, not just his availability, is what belongs in the call.

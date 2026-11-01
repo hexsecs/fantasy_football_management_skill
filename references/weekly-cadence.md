@@ -42,6 +42,7 @@ The standing schedule the system runs on. Times below are the proven defaults in
 - The lineup check verifies every starter is healthy and expected to play, and catches early kickoffs (international games can lock at 9:30 AM). A check timed for the 1 PM slate does not cover a 9:30 AM lock, so weeks with early games move this check earlier.
 - The inactives sweep, about 90 minutes before the 1 PM kickoffs, catches the late outs the first check cannot see. Re-verify any questionable starter against the official inactive list.
 - Before any swap instruction, verify the player's current starting slot on the live roster and name the exact swap (who leaves the slot, who enters it, and what happens at the slot he vacates).
+- Before executing any swap, run the linked-group re-rank from `references/decision-frameworks.md`: pool every starter and bench player eligible for the linked slots (for example WR, RB, TE, and W/R/T together) and confirm the planned combination is the best one, not merely better than the single slot it replaces.
 - Watch the bench-lock trap: a bench player in a 1 PM game cannot replace a starter whose game is later. If the starter is doubtful, the swap decision expires at the bench player's lock.
 
 ## Sunday afternoon and Monday: late pre-lock checks
