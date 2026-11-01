@@ -32,6 +32,12 @@ Score a candidate on all of these before ranking him against the drop:
 
 The drop is half the move. State who goes, why he is the one, and what it costs if the add busts. On a roster with no injured reserve slot, an injured stash occupies a live bench spot, and that cost belongs in the write-up.
 
+### The fresh-grade rule for drops
+
+Never drop a player on an evaluation made before his most recent game. Before any drop, write one fresh line for the candidate from his last three games: actual points, and whether his role (snaps, touches, targets) is growing, flat, or shrinking. If that line cannot be written from current data, the drop does not happen yet.
+
+The failure this rule exists to prevent: a committee back is graded the bench's weakest player in early October, off two quiet weeks (2.5 and 2.6 points). Three weeks later he is dropped to make room for a handcuff stash — on that same early-October grade, never re-derived. In the intervening games he had scored 16.2, 14.0, and 17.1, taken a season-high carry count, and led his team in rushing attempts; the day after the drop window he scored again, a fourth straight boom week. The add's logic (a handcuff for a star returning from bye) was defensible on its own. The drop was executed on a verdict three games out of date, and the three games were the loudest signal on the roster. A standing grade is a hypothesis with an expiry date: the player's next game.
+
 ### The same-day rule
 
 A target identified today gets acted on or surfaced today. The failure this rule exists to prevent: a strong streaming defense is identified on Wednesday morning, the action is parked behind a weekend reminder, and a league-mate claims the defense on Wednesday at noon. Free agents clear on the league's schedule, not on the assistant's reminder schedule.

@@ -8,7 +8,7 @@ The standing schedule the system runs on. Times below are the proven defaults in
 - Matchup context: the week's opponent, the live projected score, and the two or three swing players most likely to decide it.
 - Free-agent landscape: notable adds and drops league-wide and emerging targets, evaluated under the waiver framework.
 - Lock deadlines: any decision needed before the next kickoff, with the exact lock time.
-- Strategy refinement: the week-long plan updated (stash candidates, drop candidates, next week's matchup plays).
+- Strategy refinement: the week-long plan updated (stash candidates, drop candidates, next week's matchup plays). Any drop candidate named here carries his fresh last-three-games line (points plus role trend) — see the fresh-grade rule in `references/decision-frameworks.md`. A drop candidate without that line is not yet a candidate.
 - Deliver one short brief per the reporting rules in SKILL.md. Execute for full-auto leagues, recommend for the rest.
 
 ## Tuesday morning: recap and grading (about 7:40 AM)
