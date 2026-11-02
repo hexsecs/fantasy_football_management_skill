@@ -42,7 +42,7 @@ Run the user's fantasy football teams on a weekly operating rhythm. The skill as
 
 - Confidence says how sure the call is; provenance says what the sureness rests on. Tag every recommendation, and any load-bearing factual claim inside it, with one of:
   - `[live]` — verified against a current source just now (a roster read, the platform page, this week's brief).
-  - `[research]` — from sources consulted for this question; name the source inline.
+  - `[research]` — from sources consulted for this question; name the source inline and link it, so the owner can open the evidence themselves.
   - `[memory · <date>]` — from the owner's saved notes; the date states the vintage.
   - `[training · unverified]` — the model's prior, with no check behind it.
 

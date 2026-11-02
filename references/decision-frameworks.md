@@ -4,7 +4,7 @@ The detailed evaluation logic behind the calls in SKILL.md. Every framework ends
 
 ## Source-of-knowledge tags
 
-Every call also carries the provenance of its load-bearing facts, per the SKILL.md rule: `[live]` (verified against a current source just now), `[research]` (a source consulted for this question, named inline), `[memory · <date>]` (the owner's saved notes, dated), or `[training · unverified]` (the model's prior, unchecked). The tags and the confidence number answer different questions — how sure, and what the sureness rests on — and a high confidence on a decay-prone fact (affiliation, role, schedule, availability) is only credible with a `[live]` or `[research]` tag behind it. A call whose deciding fact tags `[training · unverified]` is not sent until the fact is verified or the call is downgraded to a watch item.
+Every call also carries the provenance of its load-bearing facts, per the SKILL.md rule: `[live]` (verified against a current source just now), `[research]` (a source consulted for this question, named and linked inline), `[memory · <date>]` (the owner's saved notes, dated), or `[training · unverified]` (the model's prior, unchecked). The tags and the confidence number answer different questions — how sure, and what the sureness rests on — and a high confidence on a decay-prone fact (affiliation, role, schedule, availability) is only credible with a `[live]` or `[research]` tag behind it. A call whose deciding fact tags `[training · unverified]` is not sent until the fact is verified or the call is downgraded to a watch item.
 
 ## Lineup decisions (start or sit)
 
