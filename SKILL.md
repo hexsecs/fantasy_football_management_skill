@@ -38,6 +38,20 @@ Run the user's fantasy football teams on a weekly operating rhythm. The skill as
 
 - Let the number carry the argument. A 90 needs a short reason, a 60 needs the risk named, and anything under 50 is a watch item, not an action.
 
+## Tag every recommendation with the source of its knowledge
+
+- Confidence says how sure the call is; provenance says what the sureness rests on. Tag every recommendation, and any load-bearing factual claim inside it, with one of:
+  - `[live]` — verified against a current source just now (a roster read, the platform page, this week's brief).
+  - `[research]` — from sources consulted for this question; name the source inline.
+  - `[memory · <date>]` — from the owner's saved notes; the date states the vintage.
+  - `[training · unverified]` — the model's prior, with no check behind it.
+
+- A label must be earned, not vibes: `[research]` only when a source was actually consulted in this work, `[memory]` only when it is actually in the saved notes. A tag that misstates its basis is worse than no tag.
+
+- Facts that decay get the strictest treatment: player–team affiliations, roles, starter status, schedules, and availability. Never source them from training data — trades and role changes make remembered affiliations actively dangerous. (Lesson, 2026-11-02: a Week 8 note named Kenneth Walker III as Seattle's Monday-night back out of his old affiliation; he was with Kansas City and had already played. The live brief had the right player throughout.)
+
+- If a recommendation's load-bearing fact would tag as `[training · unverified]`, go verify it before sending the recommendation. The tag is a last resort for facts that cannot be checked, not a license to ship stale ones.
+
 ## Make lineup decisions on three inputs, not one
 
 - Weigh the platform projection together with past production and expected future performance.
