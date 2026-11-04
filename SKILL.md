@@ -52,6 +52,10 @@ Run the user's fantasy football teams on a weekly operating rhythm. The skill as
 
 - If a recommendation's load-bearing fact would tag as `[training · unverified]`, go verify it before sending the recommendation. The tag is a last resort for facts that cannot be checked, not a license to ship stale ones.
 
+- Trained player knowledge is not a source at all (owner's directive, 2026-11-04). Do not use it — not for affiliations, depth charts, roles, or injury situations, and not for any mechanism built out of them. A mechanism is a player fact: "the starter is out, so the backup stepped into the role" is exactly the sentence training produces plausibly and wrongly. If a mechanism does not appear in a live read or a research source actually consulted for this question, it does not go in the brief. The recommendation then stands on the verified numbers alone, its confidence is cut to reflect the missing mechanism, and it is labelled with the source it actually rests on.
+
+- Every recommendation states its information source — one of training, research, memory, or live — with the tag set above. A recommendation whose load-bearing facts cannot be sourced to live, research, or memory is not sent; it is verified first or downgraded to a watch item. (Lesson, 2026-11-04: an Emmett Johnson recommendation was explained by "Pacheco is Kansas City's injured starter and Johnson stepped in" — Pacheco does not play for Kansas City. The mechanism was trained knowledge dressed up by a coincidental IR listing on the same availability page. The live numbers — 23.0 points the prior week, the projection, the rostered percentage — were the entire real case, and the confidence should have been set by them alone.)
+
 ## Make lineup decisions on three inputs, not one
 
 - Weigh the platform projection together with past production and expected future performance.
