@@ -32,7 +32,7 @@ Score a candidate on all of these before ranking him against the drop:
 - Projected versus actual consistency: the share of weeks his actual score landed near his projection. Consistency is worth real points across a season because it keeps flex and bye decisions boring.
 - Role trajectory: snaps, targets, carries, and whether the role is growing, stable, or borrowed from an injured teammate with a return date.
 - Schedule: the next three weeks matter more than the rest of season for a streaming add, the reverse for a stash.
-- News layer: platform blurbs and beat reporting as inputs, weekly waiver columns as sentiment. If every column leads with a player, expect competition and bid or prioritize accordingly, but let the numbers above decide whether he is worth having.
+- News layer: platform blurbs and beat reporting as inputs; external rankings and weekly waiver columns as hypotheses to test against the numbers above, never as the ranking itself. If every column leads with a player, expect competition and bid or prioritize accordingly, but let the numbers decide whether he is worth having. When a ranking disagrees with the numbers, find out why before filing — a mechanism the numbers missed changes the numbers; an unexplained disagreement changes nothing. An unverified candidate is a same-day verification task, not a demotion below a ranked one.
 
 The drop is half the move. State who goes, why he is the one, and what it costs if the add busts. On a roster with no injured reserve slot, an injured stash occupies a live bench spot, and that cost belongs in the write-up.
 

@@ -80,7 +80,13 @@ Run the user's fantasy football teams on a weekly operating rhythm. The skill as
 
 - Weigh consistency explicitly. Prefer players whose actual weekly scores land near their projections, and discount boom or bust profiles with a large projected versus actual delta.
 
-- Read platform news, player blurbs, and injury reports as inputs, and read weekly top-waiver-adds columns as a sentiment layer only. Columns drive add and drop trends, so they predict competition for a player, but they are hype-prone and never decide the call.
+- Treat external rankings — streamer rankings, expert consensus ranks, weekly top-waiver-adds columns — as hypothesis inputs only (owner's directive, 2026-11-12). They nominate candidates worth analyzing; they never set the claim order. Platform news, player blurbs, and injury reports are likewise inputs to the analysis, not conclusions. A ranking also predicts competition for a player, which prices the claim, not the player's worth.
+
+- Rank the candidates on your own analysis of the real numbers: the full profile above (percent owned and trends, season total and positional rank, consistency against projection), plus role trajectory and schedule from the decision frameworks. The recommendation states the numbers it rests on.
+
+- When an external ranking disagrees with your numbers-based ranking, investigate the deviation before filing — do not just note it. Look for a mechanism your data missed (a role change, an injury, a schedule quirk the ranker is pricing) or an error on their side (chasing one big week, a stale depth chart). If the ranker is right about a mechanism, the numbers change and so does the ranking; if the deviation stays unexplained, the numbers decide and the brief says the ranking disagreed.
+
+- A candidate whose numbers you have not verified yet is a verification task, not a demotion. Never rank a candidate down for missing data below a candidate whose case is an external ranking — go get the data first; the same-day rule sets the clock. (Lesson, 2026-11-12: a Week 10 kicker claim put a streamer ranking's #3 pick, 7.3 projected with a 5.7 per-game season average, ahead of the platform board's top available kicker at 11.3 projected, because the board-topper's season numbers were unverified that night. A league-mate added him as a free agent the next day, the owner challenged the pick on sight, and the fix was a same-day swap to the kicker the numbers actually led with.)
 
 - Act on a time-sensitive target the same day you identify it, or surface it to the owner the same day. Never park a target behind a later reminder, because unclaimed players get claimed on other teams' schedules, not yours.
 
